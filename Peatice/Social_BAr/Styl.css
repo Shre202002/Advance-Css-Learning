@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    padding: 20px 20px;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    /* padding: 20px ; */
+}
+.social i{
+    font-size: 50px;
+    margin: 15px;
+}
+.social .heading{
+    margin: 15px;
+}
+.social .discription{
+    font-size: 20px;
+    margin: 10px;
+}
+.social .Read_more{
+    margin: 10px;
+    height: 45px;
+    border-radius: 20px;
+    width: 85%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.social:hover{
+    background-color: #E2306C;
+    color: white;
+}
+.social:hover .Read_more{
+    background-color: white;
+    color: black;
+}

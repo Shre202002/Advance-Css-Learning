@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #464d51 ;
+}
+.parent{
+    height: 500px;
+    width: 40%;
+    background-color: #25333C;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    padding: 40px;
+    border-top: 5px solid    rgb(163, 160, 160)    ;
+    border-right: 5px solid   rgb(163, 160, 160)   ;
+    border-bottom: 2px solid   white   ;
+    border-left: 2px solid    white  ; 
+}
+.Top_button{
+    width: 45%;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #25333C;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#Sign_up{
+    background-color: #1AB188;
+}
+#Log_in:hover{
+    /* width: 46%; */
+    height: 55px;
+    font-size: 22px;
+    transition: 3s ease;
+    background-color: #1AB188;
+
+}
+.heading{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+.data{
+    width: 45%;
+    height: 35px;
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+}
+.info{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.getstarted{
+    height: 45px;
+    width: 90%;
+    background: #1AB188;
+    color: white;
+    border: 1px solid gray;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.last {
+    position: relative;
+    top: 50px;
+    left: 25%;
+    text-align: center;
+    color: white;
+
+}
+
+#contact {
+    cursor: pointer;
+}

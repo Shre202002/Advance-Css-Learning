@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+i {
+    padding: 15px 10px;
+    font-size: 20px;
+}
+
+.parent {
+    width: 20%;
+    height: 450px;
+    background-color: #052230;
+}
+
+.headder {
+    color: white;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tog {
+    background-color: rgb(38, 17, 94);
+
+}
+
+.heading {}
+
+.content .content-1 {
+    display: ;
+}
+
+.manu {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+}
+.option {
+    width: 70%;
+    padding-top: 10px;
+}
+.manu:hover{
+    background-color: rgb(207, 207, 207);
+    color: rgb(44, 5, 130);
+}

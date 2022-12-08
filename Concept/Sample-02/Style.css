@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ body{
+    background-image: url(../Sample-Images/background.jpeg);
+    background-attachment: fixed;
+    
+    
+}
+/* .bg {
+    height: 620px;
+    width: 100%;
+    background: url(../Sample-Images/background.jpeg);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.496);
+} */
+
+.Hadder {
+    /* position: absolute;
+    top: 0%; */
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    color: rgb(255, 255, 255);
+    align-items: center;
+    background-color: rgb(53, 99, 134);
+    opacity: 1;
+    height: 80px;
+}
+
+.Options {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Option {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    height: 80px;
+    padding-top: 40px;
+}
+
+.Option:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-style: underline;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+
+}
+
+.data {
+    width: 20%;
+    height: 30px;
+    opacity: 100%;
+    cursor: text;
+    font-size: 15px;
+}
+
+.data:hover {
+    background: rgb(218, 249, 255);
+    border: 3px solid rgb(44, 43, 45);
+    border-radius: 20px;
+    height: 35px;
+    color: rgb(7, 7, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Login {
+    height: 35px;
+    width: 5%;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: hsl(193, 100%, 50%);
+    border-radius: 10px 5px;
+}
+
+.Login:hover {
+    background: transparent;
+    border: 2px solid black;
+    color: rgb(255, 241, 241);
+    border-radius: 20px 10px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* HEADING */
+
+.heading {
+    /* position: absolute;
+    top: 15%;
+    left: 25%; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Aboreto', cursive;
+    font-size: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.Animalinfo {
+    color: rgb(0, 51, 255)
+}
+
+.Animalinfo:hover {
+    color: rgb(249, 233, 13);
+    font-style: italic;
+    font-size: 40px;
+}
+
+/* BoX */
+
+
+
+.Contaner {
+    margin: 10px 5px;
+    height: 400px;
+    width: 100%;
+    /* position: absolute;
+    top: 25%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.Image {
+    width: 24%;
+    height: auto;
+    float: left;
+}
+
+.Image .image {
+    height: 400px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.Image:hover .image {
+    opacity: 0.4;
+
+}
+
+.Text {
+    transition: 0.5s ease;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -95%;
+    opacity: 0;
+    background-color: rgba(60, 67, 67, 0.277);
+}
+
+.Image:hover .Text {
+    opacity: 1;
+
+}
+}
+
+.para {
+    font-size: 25px;
+    font-family: initial;
+}
+
+.Read {
+    transition: 0.5s ease;
+    height: 30px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 20px 10px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+
+}
+
+.Read:hover {
+    height: 35px;
+    width: 35%;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px 20px;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+}
+.space{
+    height: 2px;
+     text-align: center;
+      border: 1px solid rgb(255, 255, 255);
+       background-color: rgba(255, 255, 255, 0.647);
+}
+
+/* BoX-2 */
+
+.Contaner-1 {
+    margin: 10px 5px;
+    height: 400px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+}

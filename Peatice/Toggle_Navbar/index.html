@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Toggle_Navbar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Styl.css">
+
+    <script src="https://kit.fontawesome.com/023d1509d6.js" crossorigin="anonymous"></script>
+</head>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+    
+<body>
+    <div class="parent">
+        <div class="headder">
+            <h1 class="heading">Manu</h1>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars tog"></i>
+            </a>
+        </div>
+        <div class="content">
+            <div class="content-1">
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-table-columns "></i>
+                    <h2 class="option">Dashboard</h2>
+                </div>
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-link"></i>
+                    <h2 class="option">Shortcuts</h2>
+                </div>
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-eye"></i>
+                    <h2 class="option">Overview</h2>
+                </div>
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-book"></i>
+                    <h2 class="option">Event</h2>
+                </div>
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <h2 class="option">About</h2>
+                </div>
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-pen"></i>
+                    <h2 class="option">Service</h2>
+                </div>
+                <hr>
+                <div class="manu">
+                    <i class="fa-solid fa-address-book"></i>
+                    <h2 class="option">Contact</h2>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript.js" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.block_1 {
+    /* position: relative; */
+    background-image: linear-gradient(180deg,
+            rgba(245, 69, 66, 0)20px,
+            rgba(156, 8, 8, 0.75)500px),
+        url(/project/My_Web_Project/Concept/Sample-Images/VR_use_background.jpeg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 600px;
+}
+.block_1 #detail{
+    position: relative;
+    top: 200px;
+    left: 15%;
+    /* border: 2px solid black; */
+    width: 40%;
+    height: auto;
+    padding: 15px;
+    display: none;
+    cursor: pointer;
+    
+}
+.block_1:hover #detail{
+    display: block;
+    transition: 3s;
+}
+#detail h1{
+    margin: 30px 0px;
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#detail input {
+    height: 50px;
+    width: 60%;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#detail input:hover{
+    background-color: rgba(250, 235, 215, 0.736);
+}
+#detail button{
+    /* display: block; */
+    align-items: center;
+    height: 50px;
+    width: 25%;
+    font-size: 20px;
+    background-color: rgba(235, 107, 39, 0.841);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin:0px 15px ;
+    cursor: pointer;
+    font-weight: 700;   
+}
+#detail button:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
+.block_2 {
+    /* position: relative; */
+    background-image: url(/project/My_Web_Project/Concept/Sample-Images/girl_pose_side.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 600px;
+    transition: 0.5s;
+}
+.block_2 .data{
+    width: 40%;
+    position: relative;
+    /* top: 50px; */
+    padding: 10px 20px;
+    left: 20%;
+    height: auto;
+    display: none;
+    /* border: 2px solid red; */
+}
+.data .heading{
+    font-size: 40px;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.data samp{
+    color: rgb(132, 0, 255);
+}
+.data p{
+    font-size: 25px;
+    text-align: center;
+}
+.block_2:hover .data{
+    transition: 1s;
+    display: block;
+    /* transition: 0.5s; */
+}
+.block_3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    height: auto;
+}
+.block_3 .part_1{
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    background-color: #343131;
+    color: white;
+    padding: 30px;
+}
+.part_1 h1{
+    font-size: 70px;
+    margin: 20px 0px;
+}
+.part_1 h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.part_1 p{
+    font-size: 20px;
+}
+.part_1 i{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.block_3 .part_2{
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    background-color: #534f4f;
+    color: white;
+    padding: 30px;
+}
+.part_2 h1{
+    font-size: 70px;
+    margin: 20px 0px;
+}
+.part_2 h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.part_2 p{
+    font-size: 20px;
+}
+.part_2 i{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.block_3 .part_3{
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    background-color: #706a6a;
+    color: white;
+    padding: 30px;
+}
+.part_3 h1{
+    font-size: 70px;
+    margin: 20px 0px;
+}
+.part_3 h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.part_3 p{
+    font-size: 20px;
+}
+.part_3 i{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.block_3 .part_4{
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    background-color: #827d7d;
+    color: white;
+    padding: 30px;
+}
+.part_4 h1{
+    font-size: 70px;
+    margin: 20px 0px;
+}
+.part_4 h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.part_4 p{
+    font-size: 20px;
+}
+.part_4 i{
+    font-size: 40px;
+    margin: 20px 0px;
+}
